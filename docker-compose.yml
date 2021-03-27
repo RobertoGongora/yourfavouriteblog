@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  hugo:
+    image: "peaceiris/hugo:v0.82.0"
+    ports:
+      - 1313:1313
+    volumes:
+      - ${PWD}:/src
+    command:
+      - server
+      - --bind=0.0.0.0
+      - --buildDrafts
