@@ -1,4 +1,4 @@
 baseURL = "https://yourfavourite.blog/"
 languageCode = "en-us"
 title = "Your Favourite Blog"
-theme = "ananke"
+theme = "hugo-coder"
