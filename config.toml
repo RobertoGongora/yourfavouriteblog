@@ -1,4 +1,36 @@
 baseURL = "https://yourfavourite.blog/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Your Favourite Blog"
 theme = "hugo-coder"
+
+# Theme Configuration
+
+paginate = 7
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "Roberto Gongora"
+  info = "Full Stack Developer"
+  description = "My personal space"
+  keywords = "blog, developer, personal, php, coding"
+  gravatar = "robertogongora@hey.com"
+  since = "2021"
+  colorScheme = "dark"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/RobertoGongora"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 2
+  url = "https://twitter.com/roberttt1005"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url = "posts/"
