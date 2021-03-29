@@ -15,7 +15,7 @@ tags:
 - Learned how to use the FSS (Joy 7 + Joy 2)
 - Earned some cash. (around 10M)
 - Reached Pathfinder!
-- All nigher :)
+- All nighter :)
 - Reached Betancourt Base! Apparently, it's a special station.
 - Learned how to play the SRV
 
