@@ -5,14 +5,14 @@ draft: false
 tags:
   - elitedangerous
 ---
-# Achievements
+## Achievements
 
 - Reached Cadet with the Federation (ew)
 - Grinding in the Ceos/Sothis systems.
 - Improved my interdiction-evading skills
 - Outfitted my ASP Explorer with 112 cargo space for questing.
 
-# Goals
+## Goals
 
 - I want to unlock the Sol system.
 - Set up a home base.
@@ -20,3 +20,7 @@ tags:
 - Outfit ship for exploration.
 - Fully engineer my FSD for extended range.
 - Unlock Guardian FSD extender for 10.5YL extra jump range.
+
+## TIL
+
+- If you abandon a mission with cargo, you'll be fined and the cargo will be declared *stolen*
