@@ -36,7 +36,7 @@ pygmentscodefencesguesssyntax = true
   url = "https://linkedin.com/in/roberto-gongora"
 
 [[menu.main]]
-  name = "Blog"
+  name = "Articles"
   weight = 1
   url = "posts/"
 [[menu.main]]
