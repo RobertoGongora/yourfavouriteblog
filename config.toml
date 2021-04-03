@@ -12,9 +12,9 @@ pygmentscodefencesguesssyntax = true
 
 [params]
   author = "Roberto Gongora"
-  info = "Full Stack Developer"
+  info = "Senior Software Engineer"
   description = "My personal space"
-  keywords = "blog, developer, personal, php, coding"
+  keywords = "blog, developer, personal, php, coding, laravel, wordpress, gaming, elitedangerous"
   gravatar = "robertogongora@hey.com"
   since = "2021"
   colorScheme = "dark"
