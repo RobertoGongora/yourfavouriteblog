@@ -22,6 +22,7 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Series", name: "series", widget: "list"}
+      - {label: "GitHub Issue ID", name: "IssueID", widget: "number", value_type: "int"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "logs"
     label: "Gaming Logs"
