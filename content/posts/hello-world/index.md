@@ -40,7 +40,7 @@ I'm not a fan of trackers and ads either, so this site will forever be free of a
 
 I would love to communicate with you, so I've been thinking of ways to add comments or discussions to my posts, but I don't want to use third-party services for this, so I'm open to suggestions on that front. If I don't find anything, I'll end up developing my own solution (and of course, it will be documented here)
 
-**UPDATE:** My best friend suggested me to use GitHub Issues as a way to handle comments, and it was super easy to implement. If you're interested in how it works, check out [the article he sent me](https://retifrav.github.io/blog/2019/04/19/github-comments-hugo/).
+**UPDATE:** [My best friend](https://reyes.im/) suggested me to use GitHub Issues as a way to handle comments, and it was super easy to implement. If you're interested in how it works, check out [the article he sent me](https://retifrav.github.io/blog/2019/04/19/github-comments-hugo/).
 
 ## Shameless Plugs
 
