@@ -18,6 +18,7 @@ pygmentscodefencesguesssyntax = true
   gravatar = "robertogongora@hey.com"
   since = "2021"
   colorScheme = "dark"
+  customSCSS = ["scss/custom.scss"]
 
 [[params.social]]
   name = "GitHub"

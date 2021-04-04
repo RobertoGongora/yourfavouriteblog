@@ -1,0 +1,75 @@
+$color-border-light: #d1d5da;
+$color-text-light: #212121;
+$color-background-light: #fafafa;
+
+$color-border: #586069;
+$color-text: #dadada;
+$color-background: #212121;
+
+#comments {
+  margin-top: 30px;
+}
+
+.gh-comment {
+  border: 1px solid $color-border-light;
+  margin-top: 15px;
+}
+
+.gh-header {
+  display: flex;
+  align-items: center;
+  color: $color-text-light;
+  background-color: $color-background-light;
+  border-bottom: 1px solid $color-border-light;
+  padding: 10px;
+  font-size: 85%;
+}
+
+.gh-username {
+  color: $color-text-light;
+}
+
+.gh-body {
+  padding: 10px 15px;
+}
+
+.gh-body code {
+  font-size: 120%;
+}
+.gh-body > div.highlight > pre {
+  padding: 10px;
+  color: lime;
+  font-size: 120%;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.gh-comment p {
+  margin: 0px 0px 10px 0px;
+}
+.gh-comment p:last-child {
+  margin: 0;
+}
+
+.gh-header > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.colorscheme-dark {
+    .gh-comment {
+        border-color: $color-border;
+    }
+
+    .gh-header {
+        background-color: $color-background;
+        border-bottom-color: $color-border;
+        color: $color-text;
+    }
+
+    .gh-username {
+        color: $color-text;
+    }
+}
