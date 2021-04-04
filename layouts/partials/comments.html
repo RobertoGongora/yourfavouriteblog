@@ -28,7 +28,6 @@
         let comments = xhr.response;
 
         let mainHeader = document.createElement("h2");
-        mainHeader.id = "comments";
         mainHeader.innerHTML = "Comments: ".concat(comments.length) + " <a class='heading-link' href='#comments'><i class='fa fa-link' aria-hidden='true'></i></a>";
         commentsDiv.appendChild(mainHeader);
 
