@@ -3,6 +3,7 @@ title: Elite Dangerous - March 27/28
 date: 2021-03-28T13:50:22.886Z
 draft: false
 tags:
+  - gaming
   - elitedangerous
 ---
 ## Notable achievements
