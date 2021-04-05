@@ -3,6 +3,7 @@ title: Fortnite - April 2
 date: 2021-04-02T22:44:15.211Z
 draft: false
 tags:
+  - gaming
   - fortnite
 ---
 *Fortnite, I know...*
