@@ -26,22 +26,22 @@ collections:
       - {label: "Translation Key", name: "translationKey", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "publicaciones"
-      label: "Publicaciones"
-      folder: "content/spanish/posts"
-      create: true
-      path: "{{slug}}/index"
-      slug: "{{slug}}"
-      fields:
-        - {label: "Titulo", name: "title", widget: "string"}
-        - {label: "Fecha de publicación", name: "date", widget: "datetime"}
-        - {label: "Descripción", name: "description", widget: "string", required: false}
-        - {label: "Escondido", name: "draft", widget: "boolean", default: false}
-        - {label: "Tags", name: "tags", widget: "list"}
-        - {label: "Categorías", name: "categories", widget: "list"}
-        - {label: "Series", name: "series", widget: "list"}
-        - {label: "GitHub Issue ID", name: "IssueID", widget: "number", value_type: "int"}
-        - {label: "Translation Key", name: "translationKey", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
+    label: "Publicaciones"
+    folder: "content/spanish/posts"
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+      - {label: "Descripción", name: "description", widget: "string", required: false}
+      - {label: "Escondido", name: "draft", widget: "boolean", default: false}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Categorías", name: "categories", widget: "list"}
+      - {label: "Series", name: "series", widget: "list"}
+      - {label: "GitHub Issue ID", name: "IssueID", widget: "number", value_type: "int"}
+      - {label: "Translation Key", name: "translationKey", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "logs"
     label: "Gaming Logs"
     folder: "content/logs"
