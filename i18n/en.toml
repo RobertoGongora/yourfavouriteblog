@@ -1,0 +1,11 @@
+[comments]
+other = "Comments"
+
+[leaveComment]
+other = "You can leave a comment in this"
+
+[noID]
+other = "Comments for this post are not opened yet."
+
+[commentedOn]
+other = "commented on"

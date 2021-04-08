@@ -1,7 +1,33 @@
 baseURL = "https://yourfavourite.blog/"
-languageCode = "en"
-title = "Your Favourite Blog"
+defaultLanguageCode = "en"
 theme = "hugo-coder"
+
+[languages]
+  [languages.en]
+    title = "Your Favourite Blog"
+    languageName = "English"
+    contentDir = "content/english"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Posts"
+        weight = 1
+        url = "posts/"
+      [[languages.en.menu.main]]
+        name = "Logs"
+        weight = 2
+        url = "logs/"
+  [languages.es]
+    title = "Tu Blog Favorito"
+    languageName = "Español"
+    contentDir = "content/spanish"
+    [languages.es.params]
+      description = "Mi espacio personal"
+      info = "Ingeniero de Software"
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        name = "Publicaciones"
+        weight = 1
+        url = "posts/"
 
 # Theme Configuration
 
@@ -35,12 +61,3 @@ pygmentscodefencesguesssyntax = true
   icon = "fa fa-linkedin fa-2x"
   weight = 3
   url = "https://linkedin.com/in/roberto-gongora"
-
-[[menu.main]]
-  name = "Articles"
-  weight = 1
-  url = "posts/"
-[[menu.main]]
-  name = "Logs"
-  weight = 2
-  url = "logs/"

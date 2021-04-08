@@ -1,0 +1,11 @@
+[comments]
+other = "Comentarios"
+
+[leaveComment]
+other = "Puedes dejar tu comentario en este"
+
+[noID]
+other = "Aún no se han abierto los comentarios para esta publicación."
+
+[commentedOn]
+other = "comentó el"
