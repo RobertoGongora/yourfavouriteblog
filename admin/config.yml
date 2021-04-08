@@ -4,13 +4,13 @@ backend:
   branch: main
   site_domain: zealous-easley-2a6bf8.netlify.com
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "static/uploads"
+public_folder: "/uploads"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
-    folder: "content/posts" # The path to the folder where the documents are stored
+    folder: "content/english/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     path: "{{slug}}/index"
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -23,7 +23,25 @@ collections:
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Series", name: "series", widget: "list"}
       - {label: "GitHub Issue ID", name: "IssueID", widget: "number", value_type: "int"}
+      - {label: "Translation Key", name: "translationKey", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "publicaciones"
+      label: "Publicaciones"
+      folder: "content/spanish/posts"
+      create: true
+      path: "{{slug}}/index"
+      slug: "{{slug}}"
+      fields
+        - {label: "Titulo", name: "title", widget: "string"}
+        - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+        - {label: "Descripción", name: "description", widget: "string", required: false}
+        - {label: "Escondido", name: "draft", widget: "boolean", default: false}
+        - {label: "Tags", name: "tags", widget: "list"}
+        - {label: "Categorías", name: "categories", widget: "list"}
+        - {label: "Series", name: "series", widget: "list"}
+        - {label: "GitHub Issue ID", name: "IssueID", widget: "number", value_type: "int"}
+        - {label: "Translation Key", name: "translationKey", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
   - name: "logs"
     label: "Gaming Logs"
     folder: "content/logs"
