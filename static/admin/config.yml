@@ -31,7 +31,7 @@ collections:
       create: true
       path: "{{slug}}/index"
       slug: "{{slug}}"
-      fields
+      fields:
         - {label: "Titulo", name: "title", widget: "string"}
         - {label: "Fecha de publicación", name: "date", widget: "datetime"}
         - {label: "Descripción", name: "description", widget: "string", required: false}
