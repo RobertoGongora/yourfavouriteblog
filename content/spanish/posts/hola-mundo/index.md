@@ -12,7 +12,7 @@ Hola, soy Roberto Góngora. Soy un ingeniero de software especializado en desarr
 
 ## ¿Por qué empecé este blog?
 
-He querido empezar un blog desde hace ya bastante tiempo, pero nunca me atreví a hacerlo... hasta ahora. Me gusta mucho escribir, y ésta es una excelente plataforma para hacerlo.
+He querido empezar un blog desde hace ya bastante tiempo, pero nunca me atreví a hacerlo... hasta ahora. Me gusta mucho escribir, y esta es una excelente plataforma para hacerlo.
 
 ## Cosas de las que me gustaría escribir
 
@@ -28,19 +28,19 @@ En ningún orden en particular:
 
 ## Mi promesa
 
-Este sitio esta hospedado en GitHub Pages, y el código fuente está disponible para cualquiera que quiera revisarlo. Incluso pueden sugerir cambios si algo de lo que escribo es incorrecto o tiene alguna falla de ortografía.
+Este sitio está hospedado en GitHub Pages, y el código fuente está disponible para cualquiera que quiera revisarlo. Incluso pueden sugerir cambios si algo de lo que escribo es incorrecto o tiene alguna falla de ortografía.
 
-Nunca voy a pretender ganar dinero con este sitio, asi que todo lo que comparta aqui es y siempre será gratis. Mi intención es **compartir** mis experiencias con quien sea que quiera leerlas.
+Nunca voy a pretender ganar dinero con este sitio, asi que todo lo que comparta aquí es y siempre será gratis. Mi intención es **compartir** mis experiencias con quien sea que quiera leerlas.
 
-Éste sitio está protegido por Cloudflare, y por su naturaleza "serverless" no hay manera de que pueda ser infectado por malware. La configuración de seguridad para el sitio es bastante rigurosa, y estaré revisando los logs de vez en cuando para asegurarme de que no haya tráfico indeseado.
+Este sitio está protegido por Cloudflare, y por su naturaleza "serverless" no hay manera de que pueda ser infectado por malware. La configuración de seguridad para el sitio es bastante rigurosa, y estaré revisando los logs de vez en cuando para asegurarme de que no haya tráfico indeseado.
 
 No soy fan de la publicidad ni de scripts que sirvan para monitorear la actividad de los visitantes, asi que este sitio nunca tendrá nada de eso. Lo que se ve es lo que hay. También acepto sugerencias (via [GitHub issues](https://github.com/RobertoGongora/yourfavouriteblog/issues)) para agregar o remover algo que pueda ser visto como problemático :)
 
 ## Siguientes pasos
 
-Me encantaría comunicarme contigo, asi que he estado pensando en maneras de agregar comentarios o discusiones a mis articulos, pero no quiero usar servicios de terceros para esto, asi que acepto sugerencias para eso. Si no encuentro nada, terminare desarrollando mi propia solucion (y por supuesto que estará documentada aquí).
+Me encantaría comunicarme contigo, asi que he estado pensando en maneras de agregar comentarios o discusiones a mis artículos, pero no quiero usar servicios de terceros para esto, asi que acepto sugerencias para eso. Si no encuentro nada, terminaré desarrollando mi propia solución (y por supuesto que estará documentada aquí).
 
-**ACTUALIZACIÓN**: [Mi mejor amigo y socio](https://reyes.im/) me sugirió utilizar GitHub Issues como fuente de comentarios, y resulta que es súper fácil de implementar. Si estás interesado en saber cómo funciona, puedes leer el [artículo que me envió (en inglés)](https://retifrav.github.io/blog/2019/04/19/github-comments-hugo/).
+**ACTUALIZACIÓN**: [Mi mejor amigo y socio](https://reyes.im/) me sugirió utilizar GitHub Issues como fuente de comentarios, y resulta que es superfácil de implementar. Si estás interesado en saber cómo funciona, puedes leer [el artículo que me envió (en inglés)](https://retifrav.github.io/blog/2019/04/19/github-comments-hugo/).
 
 ## También puede resultarte interesante
 
