@@ -2,62 +2,79 @@ baseURL = "https://yourfavourite.blog/"
 defaultLanguageCode = "en"
 theme = "hugo-coder"
 
-[languages]
-  [languages.en]
-    title = "Your Favourite Blog"
-    languageName = "English"
-    contentDir = "content/english"
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        name = "Posts"
-        weight = 1
-        url = "posts/"
-      [[languages.en.menu.main]]
-        name = "Logs"
-        weight = 2
-        url = "logs/"
-  [languages.es]
-    title = "Tu Blog Favorito"
-    languageName = "Español"
-    contentDir = "content/spanish"
-    [languages.es.params]
-      description = "Mi espacio personal"
-      info = "Ingeniero de Software"
-    [languages.es.menu]
-      [[languages.es.menu.main]]
-        name = "Publicaciones"
-        weight = 1
-        url = "posts/"
+[languages.en]
+title = "Your Favourite Blog"
+languageName = "English"
+contentDir = "content/english"
+
+[[languages.en.menu.main]]
+name = "Posts"
+weight = 1
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Logs"
+weight = 2
+url = "logs/"
+
+[languages.es]
+title = "Tu Blog Favorito"
+languageName = "Español"
+contentDir = "content/spanish"
+
+[languages.es.params]
+description = "Mi espacio personal"
+info = "Ingeniero de Software"
+keywords = "blog, desarrollador, personal, php, coding, laravel, wordpress, hugo"
+footerContent = "A veces cuando estoy aburrido me gusta salir al jardin y fingir que soy un kiwi bien sabroso."
+
+[[languages.es.menu.main]]
+name = "Publicaciones"
+weight = 1
+url = "posts/"
 
 # Theme Configuration
 
-paginate = 7
+enableEmoji = true
+paginate = 10
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-  author = "Roberto Gongora"
-  info = "Senior Software Engineer"
-  description = "My personal space"
-  keywords = "blog, developer, personal, php, coding, laravel, wordpress, gaming, elitedangerous"
-  gravatar = "robertogongora@hey.com"
-  since = "2021"
-  colorScheme = "dark"
-  customSCSS = ["scss/custom.scss"]
+author = "Roberto Gongora"
+info = "Senior Software Engineer"
+description = "My personal space"
+footerContent = "Sometimes when I'm bored I like to pretend I'm a delicious kiwi."
+keywords = "blog, developer, personal, php, coding, laravel, wordpress, hugo"
+gravatar = "robertogongora@hey.com"
+since = "2021"
+colorScheme = "dark"
+customSCSS = ["scss/custom.scss"]
+commit = "https://github.com/robertogongora/yourfavouriteblog/tree/"
 
 [[params.social]]
-  name = "GitHub"
-  icon = "fa fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/RobertoGongora"
+name = "GitHub"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/RobertoGongora"
+
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 2
-  url = "https://twitter.com/roberttt1005"
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 2
+url = "https://twitter.com/roberttt1005"
+
 [[params.social]]
-  name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  weight = 3
-  url = "https://linkedin.com/in/roberto-gongora"
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+weight = 3
+url = "https://linkedin.com/in/roberto-gongora"
+
+[[params.social]]
+name = "RSS"
+icon = "fa fa-rss fa-2x"
+weight = 4
+url = "https://yourfavourite.blog/posts/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
