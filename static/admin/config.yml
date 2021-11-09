@@ -4,8 +4,8 @@ backend:
   branch: main
   site_domain: zealous-easley-2a6bf8.netlify.com
 
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "static/images/uploads"
+public_folder: "images/uploads"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
